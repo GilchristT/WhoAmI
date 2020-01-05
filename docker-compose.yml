@@ -1,0 +1,7 @@
+version: '3'
+services:
+  web:
+    image: gilchristt/whoami:latest
+    restart: always
+    ports:
+      - "8080:8080"
